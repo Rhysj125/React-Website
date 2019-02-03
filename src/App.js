@@ -3,6 +3,7 @@ import './App.css';
 import {Grid, AppBar, Typography} from '@material-ui/core'
 import Carosel from './Components/carosel';
 import Info from './Components/info'
+import GodCard from './Components/godcard'
 
 const style = {
   margin: '20px'
@@ -24,7 +25,7 @@ class App extends Component {
             <Carosel />
           </Grid>
           <Grid item xs={12}>
-            <Info TitleOne="Something" TitleTwo="Something Else" />
+            <GodCard godID="10" />
           </Grid>
         </Grid>
       </div>

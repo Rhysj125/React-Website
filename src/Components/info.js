@@ -47,7 +47,7 @@ class InfoBox extends Component {
                             {this.props.TitleTwo}
                         </Typography>
                         <Typography variant="body" align="left" color="primary" className="ml" >
-                            {this.getBodyText("This is just a test but this is for something else")}
+                            {this.getBodyText("")}
                         </Typography>
                     </Paper>
                 </Grid>
